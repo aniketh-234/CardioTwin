@@ -120,13 +120,3 @@ The models were trained and evaluated only on a custom synthetic simulator. Ther
 
 The original project code and generated synthetic sandbox data are provided under the repository's [MIT License](https://github.com/aniketh-234/CardioTwin/blob/main/CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/LICENSE). Third-party dependencies retain their respective licenses. The original Synthea archive is not redistributed here.
 
-## Final submission status
-
-- [x] Public GitHub repository
-- [x] Team, institution and team leader identified
-- [x] Source code, saved models and technical documentation available
-- [x] MIT license included
-- [x] Architecture PDF and presentation PDF linked to existing repository files
-- [ ] Confirm the linked PDFs are the latest final versions
-- [ ] Record and link the required **minimum 20-minute** prototype demonstration
-- [ ] Verify the video and document links in a signed-out browser, then submit the repository URL through the hackathon portal
