@@ -14,7 +14,7 @@
 | Team leader | **Vemula Charan** |
 | Members | **Aniketh Tadavarthy, Vemula Charan, Pattabhi Ram** |
 | Public GitHub repository | https://github.com/aniketh-234/CardioTwin |
-| Demonstration video (minimum 20 minutes) | **Pending — add accessible video link after recording** |
+| Demonstration video (minimum 20 minutes) | [Watch CardioTwin prototype demonstration](https://drive.google.com/file/d/1qxr9gfm1RHxuO1e-PBUZhpq8jTUnUXl7/view?usp=sharing) |
 
 ## Project overview and healthcare use case
 
@@ -37,7 +37,7 @@ The code currently resides in the nested project folder linked below. These link
 | Data and model documentation | [Data card](https://github.com/aniketh-234/CardioTwin/blob/main/CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/docs/DATA_CARD.md) · [Model card](https://github.com/aniketh-234/CardioTwin/blob/main/CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/docs/MODEL_CARD.md) |
 | API and verification | [API documentation](https://github.com/aniketh-234/CardioTwin/blob/main/CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/docs/API.md) · [Verification notes](https://github.com/aniketh-234/CardioTwin/blob/main/CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/docs/VERIFICATION.md) |
 | Open-source license | [MIT License](https://github.com/aniketh-234/CardioTwin/blob/main/CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/LICENSE) |
-| Required demonstration video | **Pending — minimum 20 minutes** |
+| Required demonstration video | [Watch video on Google Drive](https://drive.google.com/file/d/1qxr9gfm1RHxuO1e-PBUZhpq8jTUnUXl7/view?usp=sharing) |
 
 **Document version note:** The linked PDFs are the versions currently committed to GitHub. They may differ from the separately prepared final presentation and architecture files. Replace the PDFs at these paths before submission if the final versions have not yet been uploaded. The project uses **PDF only** for these two required document deliverables; no PPT file is required.
 
