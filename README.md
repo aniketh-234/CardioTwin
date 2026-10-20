@@ -17,7 +17,7 @@
 | Team leader | **[Add leader name]** |
 | Repository | [aniketh-234/CardioTwin](https://github.com/aniketh-234/CardioTwin) |
 | Required demonstration video (minimum 20 minutes) | **[Add accessible video URL after recording]** |
-| License | [MIT](LICENSE) — project source; dependencies retain their own licenses |
+| License | [MIT](CardioTwin_Tech_Builders_GitHub_Ready/Tech Builders_Manipal Institute of Technology Manipal/LICENSE) — project source; dependencies retain their own licenses |
 
 ## Problem statement and healthcare use case
 
@@ -27,18 +27,21 @@ Static electronic health records capture background factors but do not show how 
 
 ## Submission deliverables
 
+**Repository note:** The implementation is currently stored in a nested project folder. The links below point to files verified in that folder. The currently uploaded presentation and architecture files are earlier exports; upload the separately prepared final versions to replace them before submission.
+
+
 Place the final files at the paths below. Links work after the corresponding files are committed to this repository.
 
 | Requirement | File or location |
 |---|---|
-| Source code and model artifacts | [`backend/`](backend/), [`frontend/`](frontend/), [`ml/`](ml/), [`artifacts/`](artifacts/), [`data/`](data/) |
-| **Final detailed architecture (PPT)** | [`docs/CardioTwin_Detailed_Architecture.pptx`](docs/CardioTwin_Detailed_Architecture.pptx) |
-| **Final presentation (PPT)** | [`docs/CardioTwin_Final_Hackathon_Presentation.pptx`](docs/CardioTwin_Final_Hackathon_Presentation.pptx) |
-| **Final presentation (PDF)** | [`docs/Presentation.pdf`](docs/Presentation.pdf) |
-| Architecture PDF (optional additional export) | [`docs/CardioTwin_Detailed_Architecture.pdf`](docs/CardioTwin_Detailed_Architecture.pdf) |
-| Data and model documentation | [`docs/DATA_CARD.md`](docs/DATA_CARD.md), [`docs/MODEL_CARD.md`](docs/MODEL_CARD.md) |
-| API and verification | [`docs/API.md`](docs/API.md), [`docs/VERIFICATION.md`](docs/VERIFICATION.md) |
-| Open-source license | [`LICENSE`](LICENSE) |
+| Source code and model artifacts | [`backend/`](CardioTwin_Tech_Builders_GitHub_Ready/Tech Builders_Manipal Institute of Technology Manipal/backend/), [`frontend/`](CardioTwin_Tech_Builders_GitHub_Ready/Tech Builders_Manipal Institute of Technology Manipal/frontend/), [`ml/`](CardioTwin_Tech_Builders_GitHub_Ready/Tech Builders_Manipal Institute of Technology Manipal/ml/), [`artifacts/`](CardioTwin_Tech_Builders_GitHub_Ready/Tech Builders_Manipal Institute of Technology Manipal/artifacts/), [`data/`](CardioTwin_Tech_Builders_GitHub_Ready/Tech Builders_Manipal Institute of Technology Manipal/data/) |
+| **Final detailed architecture (PPT)** | [`docs/CardioTwin_Detailed_Architecture.pptx`](CardioTwin_Tech_Builders_GitHub_Ready/Tech Builders_Manipal Institute of Technology Manipal/docs/architecture_detailed.pptx) |
+| **Final presentation (PPT)** | [`docs/CardioTwin_Final_Hackathon_Presentation.pptx`](CardioTwin_Tech_Builders_GitHub_Ready/Tech Builders_Manipal Institute of Technology Manipal/docs/CardioTwin_Hackathon_Presentation.pptx) |
+| **Final presentation (PDF)** | [`docs/Presentation.pdf`](CardioTwin_Tech_Builders_GitHub_Ready/Tech Builders_Manipal Institute of Technology Manipal/docs/presentation.pdf) |
+| Architecture PDF (optional additional export) | [`docs/CardioTwin_Detailed_Architecture.pdf`](CardioTwin_Tech_Builders_GitHub_Ready/Tech Builders_Manipal Institute of Technology Manipal/docs/architecture_detailed.pdf) |
+| Data and model documentation | [`docs/DATA_CARD.md`](CardioTwin_Tech_Builders_GitHub_Ready/Tech Builders_Manipal Institute of Technology Manipal/docs/DATA_CARD.md), [`docs/MODEL_CARD.md`](CardioTwin_Tech_Builders_GitHub_Ready/Tech Builders_Manipal Institute of Technology Manipal/docs/MODEL_CARD.md) |
+| API and verification | [`docs/API.md`](CardioTwin_Tech_Builders_GitHub_Ready/Tech Builders_Manipal Institute of Technology Manipal/docs/API.md), [`docs/VERIFICATION.md`](CardioTwin_Tech_Builders_GitHub_Ready/Tech Builders_Manipal Institute of Technology Manipal/docs/VERIFICATION.md) |
+| Open-source license | [`LICENSE`](CardioTwin_Tech_Builders_GitHub_Ready/Tech Builders_Manipal Institute of Technology Manipal/LICENSE) |
 | Minimum 20-minute video | **[Video link pending]** |
 
 **Note:** The PPT and PDF presentation are two formats of the final presentation; the architecture PPT is a separate technical deliverable. Do not mistake older `docs/presentation.pdf` or `docs/architecture.pdf` from the original prototype for the updated hybrid/XAI versions. If your uploaded filenames differ, rename the files or update the links in this table.
@@ -185,7 +188,7 @@ See `docs/VERIFICATION.md`, `docs/API.md` and the data/model cards for additiona
 
 ## Open-source license
 
-Project-authored code and synthetic benchmark assets are provided under the repository's **[MIT License](LICENSE)**. Third-party packages retain their own licenses. The original Synthea archive is **not redistributed**.
+Project-authored code and synthetic benchmark assets are provided under the repository's **[MIT License](CardioTwin_Tech_Builders_GitHub_Ready/Tech Builders_Manipal Institute of Technology Manipal/LICENSE)**. Third-party packages retain their own licenses. The original Synthea archive is **not redistributed**.
 
 ## Before submitting
 
