@@ -1,4 +1,4 @@
-# CardioTwin | Tech Builders
+# CardioTwin | TechBuilders
 
 **Happiest Health Digital Twin Challenge 2026 — Public repository submission**
 
