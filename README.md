@@ -8,7 +8,7 @@
 
 | Field | Details |
 |---|---|
-| Team | **Tech Builders** |
+| Team | **TechBuilders** |
 | College | **Manipal Institute of Technology, Manipal** |
 | Incubator | Not specified / not claimed |
 | Team members and individual roles | **To be filled by team before submission** |
