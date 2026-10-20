@@ -37,7 +37,7 @@ The **original validation-selected model is logistic fusion** (lowest validation
 | Deliverable | Repository path |
 |---|---|
 | Full implementation and checkpoints | `backend/`, `frontend/`, `ml/`, `artifacts/`, `data/` |
-| Detailed architecture diagram (PDF) | ["C:\Users\anike\Downloads\CardioTwin_Final_Architecture_Diagram.pdf"]("C:\Users\anike\Downloads\CardioTwin_Final_Architecture_Diagram.pdf") |
+| Detailed architecture diagram (PDF) | [`docs/CardioTwin_Final_Architecture_Diagram`](docs/CardioTwin_Final_Architecture_Diagram) |
 | Project presentation (PPT) | [`docs/CardioTwin_Hackathon_Presentation.pptx`](docs/CardioTwin_Hackathon_Presentation.pptx) |
 | Original project presentation (PDF; older baseline) | `docs/presentation.pdf` — historical reference only |
 | Model and data cards | `docs/MODEL_CARD.md`, `docs/DATA_CARD.md` |
