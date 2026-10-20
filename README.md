@@ -13,8 +13,8 @@
 | Team | **TechBuilders** |
 | Institution | **Manipal Institute of Technology, Manipal** |
 | Incubator | Not specified |
-| Team members and roles | **[Add member names and responsibilities]** |
-| Team leader | **[Add leader name]** |
+| Team members | **Aniketh Tadavarthy**, **Vemula Charan**, **Pattabhi Ram** |
+| Team leader | **Vemula Charan** |
 | Repository | [aniketh-234/CardioTwin](https://github.com/aniketh-234/CardioTwin) |
 | Required demonstration video (minimum 20 minutes) | **[Add accessible video URL after recording]** |
 | License | [MIT](CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/LICENSE) — project source; dependencies retain their own licenses |
