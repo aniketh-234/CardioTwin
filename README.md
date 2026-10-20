@@ -27,22 +27,25 @@ Static electronic health records capture background factors but do not show how 
 
 ## Submission deliverables
 
-The following links point to the project files and documentation in this repository.
+All links below point to files verified in this public repository.
 
-
-| Requirement | File or location |
+| Requirement | Verified repository link |
 |---|---|
-| Source code and model artifacts | [`backend/`](CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/backend/), [`frontend/`](CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/frontend/), [`ml/`](CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/ml/), [`artifacts/`](CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/artifacts/), [`data/`](CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/data/) |
-| **Detailed architecture (PPT)** | [`docs/CardioTwin_Detailed_Architecture.pptx`](CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/docs/architecture_detailed.pptx) |
-| **Project presentation (PPT)** | [`docs/CardioTwin_Final_Hackathon_Presentation.pptx`](CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/docs/CardioTwin_Hackathon_Presentation.pptx) |
-| **Project presentation (PDF)** | [`docs/Presentation.pdf`](CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/docs/presentation.pdf) |
-| Architecture PDF (optional additional export) | [`docs/CardioTwin_Detailed_Architecture.pdf`](CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/docs/architecture_detailed.pdf) |
-| Data and model documentation | [`docs/DATA_CARD.md`](CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/docs/DATA_CARD.md), [`docs/MODEL_CARD.md`](CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/docs/MODEL_CARD.md) |
-| API and verification | [`docs/API.md`](CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/docs/API.md), [`docs/VERIFICATION.md`](CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/docs/VERIFICATION.md) |
-| Open-source license | [`LICENSE`](CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/LICENSE) |
-| Minimum 20-minute video | **[Video link pending]** |
+| Source code | [Backend](https://github.com/aniketh-234/CardioTwin/tree/main/CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/backend), [Frontend](https://github.com/aniketh-234/CardioTwin/tree/main/CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/frontend), [ML](https://github.com/aniketh-234/CardioTwin/tree/main/CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/ml) |
+| Saved model and evaluation artifacts | [Artifacts](https://github.com/aniketh-234/CardioTwin/tree/main/CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/artifacts) |
+| Detailed architecture diagram (PDF) | [Open architecture PDF](https://github.com/aniketh-234/CardioTwin/blob/main/CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/docs/architecture_detailed.pdf) |
+| Detailed architecture diagram (PPT) | [Download architecture PPT](https://github.com/aniketh-234/CardioTwin/blob/main/CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/docs/architecture_detailed.pptx) |
+| Project presentation (PPT) | [Download presentation PPT](https://github.com/aniketh-234/CardioTwin/blob/main/CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/docs/CardioTwin_Hackathon_Presentation.pptx) |
+| Project presentation (PDF) | [Open presentation PDF](https://github.com/aniketh-234/CardioTwin/blob/main/CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/docs/presentation.pdf) |
+| Model and data cards | [Model card](https://github.com/aniketh-234/CardioTwin/blob/main/CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/docs/MODEL_CARD.md), [Data card](https://github.com/aniketh-234/CardioTwin/blob/main/CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/docs/DATA_CARD.md) |
+| API and verification | [API documentation](https://github.com/aniketh-234/CardioTwin/blob/main/CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/docs/API.md), [Verification notes](https://github.com/aniketh-234/CardioTwin/blob/main/CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/docs/VERIFICATION.md) |
+| Dependencies | [requirements.txt](https://github.com/aniketh-234/CardioTwin/blob/main/CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/requirements.txt) |
+| Open-source license | [MIT LICENSE](https://github.com/aniketh-234/CardioTwin/blob/main/CardioTwin_Tech_Builders_GitHub_Ready/Tech%20Builders_Manipal%20Institute%20of%20Technology%20Manipal/LICENSE) |
+| Minimum 20-minute video | **Pending: add the video URL after recording** |
 
-**Note:** The architecture and presentation are available in editable and viewable formats. The demonstration video link will be added after recording.
+**Version note:** The verified architecture and presentation files above are the currently committed versions. The separately prepared final slide files must be uploaded before they can be linked here as final versions.
+
+**Project location:** The runnable application is in `CardioTwin_Tech_Builders_GitHub_Ready/Tech Builders_Manipal Institute of Technology Manipal/` within this repository. Open that folder before running the setup commands below.
 
 ## Dataset and prediction target
 
