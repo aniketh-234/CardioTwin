@@ -1,6 +1,6 @@
 # CardioTwin — Explainable Cardiovascular Digital Twin
 
-**Tech Builders | Manipal Institute of Technology, Manipal**  
+**TechBuilders | Manipal Institute of Technology, Manipal**  
 **Happiest Health Digital Twin Challenge 2026**  
 **Public repository:** https://github.com/aniketh-234/CardioTwin
 
@@ -10,7 +10,7 @@
 
 | Field | Information |
 |---|---|
-| Team | **Tech Builders** |
+| Team | **TechBuilders** |
 | Institution | **Manipal Institute of Technology, Manipal** |
 | Incubator | Not specified |
 | Team members and roles | **[Add member names and responsibilities]** |
