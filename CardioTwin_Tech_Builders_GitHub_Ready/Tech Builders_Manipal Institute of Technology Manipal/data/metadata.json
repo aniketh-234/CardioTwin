@@ -1,0 +1,93 @@
+{
+  "seed": 2026,
+  "patients": 4000,
+  "days": 28,
+  "static_features": [
+    "age",
+    "sex_male",
+    "bmi",
+    "systolic_bp",
+    "total_cholesterol",
+    "hdl",
+    "smoker",
+    "diabetes"
+  ],
+  "dynamic_features": [
+    "resting_hr",
+    "hrv_rmssd",
+    "steps",
+    "sleep_hours",
+    "home_systolic_bp",
+    "coverage"
+  ],
+  "positive_count": 888,
+  "prevalence": 0.22200000286102295,
+  "outcome": "Hypothetical first cardiovascular event within five years",
+  "source": "Custom synthetic sandbox. Not Synthea-derived or clinically validated.",
+  "index_time": "2021-01-29T00:00:00+00:00",
+  "static_limits": [
+    [
+      30,
+      80
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      18,
+      42
+    ],
+    [
+      90,
+      190
+    ],
+    [
+      120,
+      320
+    ],
+    [
+      25,
+      95
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "dynamic_limits": [
+    [
+      40,
+      120
+    ],
+    [
+      8,
+      110
+    ],
+    [
+      0,
+      25000
+    ],
+    [
+      2,
+      11
+    ],
+    [
+      85,
+      200
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "limitations": [
+    "Simulator coefficients are unvalidated assumptions.",
+    "No real patient outcomes or Indian population calibration.",
+    "Held-out performance measures reproduction of this simulator only."
+  ]
+}

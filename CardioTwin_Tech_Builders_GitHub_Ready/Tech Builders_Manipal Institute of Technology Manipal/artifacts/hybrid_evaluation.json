@@ -1,0 +1,144 @@
+{
+  "patients": 800,
+  "abstained": 0,
+  "cnn_threshold": 0.5,
+  "rule_version": "sandbox-trends-v1",
+  "policy": "Comparison only: CNN >= 0.5 OR multi-signal rule flag. Dashboard keeps probability and trend flags separate.",
+  "cnn_only": {
+    "tp": 80,
+    "fp": 39,
+    "fn": 97,
+    "tn": 584,
+    "recall": 0.4519774011299435,
+    "precision": 0.6722689075630253,
+    "alerts": 119
+  },
+  "rules_only": {
+    "tp": 18,
+    "fp": 45,
+    "fn": 159,
+    "tn": 578,
+    "recall": 0.1016949152542373,
+    "precision": 0.2857142857142857,
+    "alerts": 63
+  },
+  "combined_review": {
+    "tp": 89,
+    "fp": 78,
+    "fn": 88,
+    "tn": 545,
+    "recall": 0.5028248587570622,
+    "precision": 0.5329341317365269,
+    "alerts": 167
+  },
+  "note": "Fixed engineering rules, not optimized on this test set. Future rules need fresh evaluation. Synthetic five-year labels do not validate short-term alerts. Hybrid probabilities equal CNN probabilities; no probability improvement is claimed.",
+  "matched_alert_comparison": {
+    "status": "exploratory",
+    "selected_threshold": 0.3793189525604248,
+    "rule_version": "sandbox-trends-v1",
+    "selection": "Match the validation hybrid alert count using CNN probabilities only. Closest achievable count; ties prefer fewer alerts, then higher threshold. No outcome labels or test data used for threshold selection.",
+    "validation_target_alerts": 153,
+    "validation": {
+      "cnn_50": {
+        "tp": 61,
+        "fp": 35,
+        "fn": 117,
+        "tn": 587,
+        "alerts": 96,
+        "evaluated": 800,
+        "abstained": 0,
+        "abstained_events": 0,
+        "alert_rate": 0.12,
+        "accuracy": 0.81,
+        "recall": 0.34269662921348315,
+        "precision": 0.6354166666666666,
+        "f1": 0.44525547445255476
+      },
+      "hybrid": {
+        "tp": 72,
+        "fp": 81,
+        "fn": 106,
+        "tn": 541,
+        "alerts": 153,
+        "evaluated": 800,
+        "abstained": 0,
+        "abstained_events": 0,
+        "alert_rate": 0.19125,
+        "accuracy": 0.76625,
+        "recall": 0.4044943820224719,
+        "precision": 0.47058823529411764,
+        "f1": 0.4350453172205438
+      },
+      "cnn_matched": {
+        "tp": 89,
+        "fp": 64,
+        "fn": 89,
+        "tn": 558,
+        "alerts": 153,
+        "evaluated": 800,
+        "abstained": 0,
+        "abstained_events": 0,
+        "alert_rate": 0.19125,
+        "accuracy": 0.80875,
+        "recall": 0.5,
+        "precision": 0.5816993464052288,
+        "f1": 0.5377643504531722
+      }
+    },
+    "test": {
+      "cnn_50": {
+        "tp": 80,
+        "fp": 39,
+        "fn": 97,
+        "tn": 584,
+        "alerts": 119,
+        "evaluated": 800,
+        "abstained": 0,
+        "abstained_events": 0,
+        "alert_rate": 0.14875,
+        "accuracy": 0.83,
+        "recall": 0.4519774011299435,
+        "precision": 0.6722689075630253,
+        "f1": 0.5405405405405406
+      },
+      "hybrid": {
+        "tp": 89,
+        "fp": 78,
+        "fn": 88,
+        "tn": 545,
+        "alerts": 167,
+        "evaluated": 800,
+        "abstained": 0,
+        "abstained_events": 0,
+        "alert_rate": 0.20875,
+        "accuracy": 0.7925,
+        "recall": 0.5028248587570622,
+        "precision": 0.5329341317365269,
+        "f1": 0.5174418604651163
+      },
+      "cnn_matched": {
+        "tp": 101,
+        "fp": 80,
+        "fn": 76,
+        "tn": 543,
+        "alerts": 181,
+        "evaluated": 800,
+        "abstained": 0,
+        "abstained_events": 0,
+        "alert_rate": 0.22625,
+        "accuracy": 0.805,
+        "recall": 0.5706214689265536,
+        "precision": 0.5580110497237569,
+        "f1": 0.5642458100558659
+      }
+    },
+    "limitations": "The test set was inspected before proposing this analysis. Validation was previously used for CNN early stopping. Results are exploratory on the existing synthetic cohort, not fresh independent validation. Matching validation alert rates does not guarantee equal test alert rates. No live threshold or model was changed.",
+    "source_sha256": {
+      "data/benchmark.npz": "f43384be33d7697b7fdd98b03da720195ca5bc20395df66217fa385ffa6b38de",
+      "artifacts/cnn.pt": "71e38e97b81ef53838c6bddf6e86444fcfd24402b11ccf1ad595f9138b1a557e",
+      "artifacts/preprocessing.json": "898f7c957ea1e34d19dba9360b26e961e29e977c609a348269030b8188cde36d",
+      "artifacts/splits.json": "efa7c8cb53dbe9eb076d904cc1e73bcfb2dcd9298a945aa14eb81bcd2334cbd1",
+      "backend/rules.py": "5e7e9c190ea252d74c8c84b1810b5445d5d6105cdddab0cd58677a18fb3b18b5"
+    }
+  }
+}

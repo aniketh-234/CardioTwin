@@ -1,0 +1,165 @@
+{
+  "dataset": "Entirely synthetic sandbox v1",
+  "clinical_validation": false,
+  "patients": 4000,
+  "train_count": 2400,
+  "validation_count": 800,
+  "test_count": 800,
+  "test_positive_count": 177,
+  "seed": 42,
+  "threshold": 0.5,
+  "selected_model": "logistic_fusion",
+  "selected_neural_model": "cnn",
+  "selection_rule": "lowest validation Brier score, before interpreting test results",
+  "models": [
+    {
+      "model": "logistic_static",
+      "validation_brier": 0.13846772836202162,
+      "accuracy": 0.81375,
+      "accuracy_ci95": [
+        0.7852956894896297,
+        0.8392054560096827
+      ],
+      "balanced_accuracy": 0.6175195654342484,
+      "roc_auc": 0.8135593220338984,
+      "average_precision": 0.5638045822753716,
+      "precision": 0.7121212121212122,
+      "recall": 0.2655367231638418,
+      "f1": 0.3868312757201646,
+      "brier": 0.1332745995490621,
+      "tn": 604,
+      "fp": 19,
+      "fn": 130,
+      "tp": 47
+    },
+    {
+      "model": "logistic_fusion",
+      "validation_brier": 0.12880790908093206,
+      "accuracy": 0.82125,
+      "accuracy_ci95": [
+        0.7931833470632308,
+        0.8462461126711249
+      ],
+      "balanced_accuracy": 0.6546916233642571,
+      "roc_auc": 0.8402390474376762,
+      "average_precision": 0.6198844280629859,
+      "precision": 0.6847826086956522,
+      "recall": 0.3559322033898305,
+      "f1": 0.4684014869888476,
+      "brier": 0.12285448287388152,
+      "tn": 594,
+      "fp": 29,
+      "fn": 114,
+      "tp": 63
+    },
+    {
+      "model": "prevalence_baseline",
+      "validation_brier": 0.1729939236137602,
+      "accuracy": 0.77875,
+      "accuracy_ci95": [
+        0.7486915854968131,
+        0.8061440935722971
+      ],
+      "balanced_accuracy": 0.5,
+      "roc_auc": 0.5,
+      "average_precision": 0.22125,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "brier": 0.17229913193914626,
+      "tn": 623,
+      "fp": 0,
+      "fn": 177,
+      "tp": 0
+    },
+    {
+      "model": "mlp",
+      "validation_brier": 0.13444729149341583,
+      "best_epoch": 7,
+      "seconds": 0.36,
+      "accuracy": 0.82375,
+      "accuracy_ci95": [
+        0.7958163296138804,
+        0.8485892348654896
+      ],
+      "balanced_accuracy": 0.6906756989598353,
+      "roc_auc": 0.8255570367549039,
+      "average_precision": 0.590606007629875,
+      "precision": 0.6451612903225806,
+      "recall": 0.4519774011299435,
+      "f1": 0.53156146179402,
+      "brier": 0.12814076244831085,
+      "tn": 579,
+      "fp": 44,
+      "fn": 97,
+      "tp": 80
+    },
+    {
+      "model": "cnn",
+      "validation_brier": 0.13041476905345917,
+      "best_epoch": 15,
+      "seconds": 1.07,
+      "accuracy": 0.83,
+      "accuracy_ci95": [
+        0.8024073159539211,
+        0.854438510387985
+      ],
+      "balanced_accuracy": 0.6946885400513281,
+      "roc_auc": 0.839486356340289,
+      "average_precision": 0.5925876333489103,
+      "precision": 0.6722689075630253,
+      "recall": 0.4519774011299435,
+      "f1": 0.5405405405405406,
+      "brier": 0.1244550347328186,
+      "tn": 584,
+      "fp": 39,
+      "fn": 97,
+      "tp": 80
+    },
+    {
+      "model": "lstm",
+      "validation_brier": 0.1308099329471588,
+      "best_epoch": 26,
+      "seconds": 2.01,
+      "accuracy": 0.8225,
+      "accuracy_ci95": [
+        0.7944995986705435,
+        0.8474179134363194
+      ],
+      "balanced_accuracy": 0.6777393875089552,
+      "roc_auc": 0.8353964324255696,
+      "average_precision": 0.581213909248767,
+      "precision": 0.6548672566371682,
+      "recall": 0.4180790960451977,
+      "f1": 0.5103448275862069,
+      "brier": 0.12585273385047913,
+      "tn": 584,
+      "fp": 39,
+      "fn": 103,
+      "tp": 74
+    },
+    {
+      "model": "gru",
+      "validation_brier": 0.13095654547214508,
+      "best_epoch": 14,
+      "seconds": 2.71,
+      "accuracy": 0.825,
+      "accuracy_ci95": [
+        0.7971335438665237,
+        0.8497600729853536
+      ],
+      "balanced_accuracy": 0.6833891050230795,
+      "roc_auc": 0.8382348940337895,
+      "average_precision": 0.5950364272109849,
+      "precision": 0.6608695652173913,
+      "recall": 0.4293785310734463,
+      "f1": 0.5205479452054794,
+      "brier": 0.1246199980378151,
+      "tn": 584,
+      "fp": 39,
+      "fn": 101,
+      "tp": 76
+    }
+  ],
+  "torch_version": "2.14.1+cpu"
+}

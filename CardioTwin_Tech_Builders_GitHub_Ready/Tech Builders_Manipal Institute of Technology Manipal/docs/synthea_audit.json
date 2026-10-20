@@ -1,0 +1,24 @@
+{
+  "source_filename": "synthea_sample_data_csv_latest.zip",
+  "sha256": "d61417b551e5b0997c33851b339c157421751f0ea68c18ea686ceb1850907c35",
+  "patients": 108,
+  "observations": 68648,
+  "candidate_index": "2020-01-01T00:00:00+00:00",
+  "horizon_years": 5,
+  "candidate_codes": [
+    "414545008",
+    "22298006",
+    "401314000",
+    "401303003",
+    "88805009"
+  ],
+  "counts": {
+    "positive": 5,
+    "candidate_negative": 56,
+    "insufficient_followup": 7,
+    "ineligible": 40
+  },
+  "decision": "Do not use this small cohort for neural benchmark claims.",
+  "caveat": "Last encounter after horizon is only a follow-up proxy. Endpoint ascertainment and historical eligibility need further verification.",
+  "relationship_to_benchmark": "No source patient was copied or joined into the custom simulator benchmark."
+}
